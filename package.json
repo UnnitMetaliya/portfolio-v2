@@ -1,0 +1,27 @@
+{
+  "name": "unnit-metaliya-portfolio",
+  "version": "2.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnnitMetaliya/portfolio-v2"
+  },
+  "author": "Unnit Metaliya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnnitMetaliya/portfolio-v2/issues"
+  },
+  "homepage": "https://github.com/UnnitMetaliya/portfolio-v2#readme",
+  "devDependencies": {
+    "canvas": "^2.4.1",
+    "grunt": "^1.0.4",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-processhtml": "^0.4.2",
+    "grunt-uncss": "^0.8.6"
+  }
+}
