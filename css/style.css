@@ -830,6 +830,21 @@ button:focus {
   transform: scale(1.2);
 }
 
+.text-left {
+  margin-left: 24px;
+}
+
+.demo-button {
+  margin-top: 20px;
+}
+
+.project-brief {
+  margin-top: 20px;
+}
+
+.fot_social {
+  margin-top: 20px;
+}
 /*==========================
         11.CLIENT
 ============================*/
