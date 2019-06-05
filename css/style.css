@@ -198,7 +198,8 @@ button:focus {
 }
 
 .text-custom {
-  color: #337ab7;
+  color: chocolate;
+  text-shadow: 1px 1px 1px #303133;
 }
 
 .h-100vh {
