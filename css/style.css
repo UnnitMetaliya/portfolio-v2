@@ -1351,6 +1351,12 @@ button:focus {
   .custom-nav .navbar-brand.logo img {
     height: 26px;
   }
+
+  .about-detail {
+    background-color: #ffffff;
+    box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
+  }
+
   .about-detail .about-work li::after,
   .work_menu li:after {
     display: none;
