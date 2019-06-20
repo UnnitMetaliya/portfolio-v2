@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Mali&display=swap");
 /*
 
 /***********************
@@ -1256,11 +1257,13 @@ button:focus {
 ============================*/
 
 #skills {
-  padding-top: -260px;
+  margin-top: -30px;
+  padding-top: 2%;
 }
 
 .single_skill_info {
   background-color: #fff;
+
   box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
   padding: 40px 20px 35px;
   position: relative;
@@ -1468,5 +1471,15 @@ button:focus {
 
 h1 {
   text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-  font-family: "Nunito", sans-serif;
+  font-family: "Mali", cursive;
+}
+
+h2 {
+  font-family: "Mali", cursive;
+  font-weight: bolder;
+}
+
+h5 {
+  font-family: "Mali", cursive;
+  font-weight: bold;
 }
