@@ -1255,6 +1255,10 @@ button:focus {
         18.SKILLS
 ============================*/
 
+#skills {
+  padding-top: -260px;
+}
+
 .single_skill_info {
   background-color: #fff;
   box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
@@ -1413,7 +1417,7 @@ button:focus {
 }
 
 .biopic {
-  border: 7px solid #2196f3;
+  /* border: 7px solid #2196f3; */
   background-color: #928dab;
   width: 270px;
   height: 270px;
@@ -1455,12 +1459,13 @@ button:focus {
 }
 
 #about {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
-b {
+#about h1 {
   color: goldenrod;
 }
+
 h1 {
   text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
   font-family: "Nunito", sans-serif;
