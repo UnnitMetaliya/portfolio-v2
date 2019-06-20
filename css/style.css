@@ -448,7 +448,7 @@ button:focus {
 ============================*/
 
 .home-bg {
-  background-image: url(../images/mountain.JPG);
+  background-image: url(../images/mountain.jpg);
   background-position: center center;
   background-size: cover;
   background-position-y: 0%;
