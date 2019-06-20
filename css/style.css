@@ -358,7 +358,7 @@ button:focus {
 }
 
 .custom-nav .navbar-nav li a {
-  color: #fff;
+  color: #000;
   font-size: 16px;
   background-color: transparent !important;
   padding: 15px 0;
@@ -385,7 +385,7 @@ button:focus {
   bottom: 10%;
   height: 6px;
   width: 6px;
-  background: #fff;
+  background: #000;
   border-radius: 50%;
   opacity: 0;
   transform: translateX(-50%);
@@ -402,7 +402,7 @@ button:focus {
   font-size: 24px;
   margin-top: 5px;
   margin-bottom: 0px;
-  color: #ffffff;
+  color: #000;
 }
 
 .custom-nav.stickyadd .navbar-nav li a {
@@ -413,7 +413,7 @@ button:focus {
   font-size: 24px;
   margin-top: 5px;
   margin-bottom: 0px;
-  color: #ffffff;
+  color: #000;
 }
 
 .nav .open > a,
@@ -983,14 +983,14 @@ button:focus {
 .error {
   margin: 8px 0px;
   display: none;
-  color: red;
+  color: #000;
 }
 
 .error_msg {
   margin-bottom: 20px;
   text-align: center;
   font-size: 18px;
-  color: red;
+  color: #000;
   font-weight: 700;
 }
 
@@ -1410,4 +1410,58 @@ button:focus {
   .flex-container a {
     margin: 0 5px;
   }
+}
+
+.biopic {
+  border: 7px solid #2196f3;
+  background-color: #928dab;
+  width: 270px;
+  height: 270px;
+  border-radius: 100%;
+  box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+.biopic.background {
+  background-image: url("../images/biopic.JPG");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
+  background-position-y: 40%;
+  color: white;
+  margin: 0 auto;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.biopic {
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 1s ease-in-out;
+}
+.biopic:hover {
+  /* -webkit-transform: rotate(360deg);
+  transform: rotate(360deg); */
+  animation: shake 0.52s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.about {
+  box-shadow: 0 34px 38px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1%;
+  padding: 2%;
+  color: grey;
+}
+
+#about {
+  padding: 100px 0;
+}
+
+b {
+  color: goldenrod;
+}
+h1 {
+  text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  font-family: "Nunito", sans-serif;
 }
